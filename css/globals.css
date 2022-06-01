@@ -59,6 +59,11 @@ a {
   display: flex;
 }
 
+.col-md-3 {
+  width: 25%;
+  float: left;
+}
+
 .col-md-4 {
   padding-right: 15px;
   padding-left: 15px;
@@ -74,6 +79,10 @@ hr {
   height: 0.85px;
   background-color: #ffffff66;
   border: none;
+}
+
+.mt12 {
+  margin-top: 12px;
 }
 
 /******** Header *********/
@@ -250,11 +259,20 @@ footer {
   margin-top: 46px;
   color: #a6a6a6;
   padding: 43px 0;
+  justify-content: space-between;
 }
 
-.col-md-3 {
-  width: 25%;
-  float: left;
+footer .row {
+  justify-content: space-between;
+}
+
+footer .social-img {
+  width: 2rem;
+}
+
+footer .rounded-white {
+  background: #fff;
+  border-radius: 100%;
 }
 
 /********* Rotate animation **********/
