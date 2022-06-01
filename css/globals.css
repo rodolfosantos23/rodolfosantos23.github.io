@@ -65,6 +65,10 @@ a {
   width: 100%;
 }
 
+.col-md-3 {
+  width: 25%;
+}
+
 hr {
   margin: 10px 0;
   height: 0.85px;
@@ -239,6 +243,18 @@ b.repo-listody::-webkit-scrollbar-track {
 .repo-list::-webkit-scrollbar-thumb {
   background-color: #589ad3;
   outline: 1px solid #589ad3;
+}
+
+footer {
+  background: #202020;
+  margin-top: 46px;
+  color: #a6a6a6;
+  padding: 43px 0;
+}
+
+.col-md-3 {
+  width: 25%;
+  float: left;
 }
 
 /********* Rotate animation **********/
