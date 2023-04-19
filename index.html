@@ -65,22 +65,34 @@
 
   <!-- Banner -->
   <section class="banner">
-    <img src="images/slider_2.png" alt="Rodolfo Santos #Dev" />
+    <img src="images/background3.jpg" alt="Rodolfo Santos #Dev" />
   </section>
 
   <!-- Sobre -->
   <div id="about">
     <section>
       <div class="container">
-        <h2>Rodolfo Santos #Dev</h2>
+        <h3>Olá! Meu nome é Rodolfo Santos 😁</h3>
+        <br>
         <p>
-          Dev Full Stack especialidades: PHP, Yii Framework, MySQL, HTML e
-          CSS. <br> Atualmente focado em JavaScript, TypeScript, Node.js e
-          ReactJS / React Native ☕💻
+          Sou um desenvolvedor fullstack apaixonado por construir soluções inovadoras para problemas complexos. <br><br>
+
+          Tenho uma vasta experiência em trabalhar com frameworks PHP (Yii2, Laravel) e Node.js (Nest.js e Adonis.js,
+          Next.js) e tive experiências com projetos de lojas virtuais (B2B, B2C), sistemas acadêmicos, financeiros, ERP,
+          estoque, gateways de pagamento, nota fiscal, levantamento de requisitos, modelagem e implementação de banco de
+          dados, configuração de servidores, entre outros. <br><br>
+
         </p><br>
 
-        <p>Conheça mais sobre mim no meu <a href="https://www.linkedin.com/in/rodolfosantos23/" target="_blank">Perfil
-            no LinkedIn</a></p>
+        <p>
+          Para me conhecer mais, visite: <br><br>
+          <a href="https://www.linkedin.com/in/rodolfosantos23/" target="_blank">LinkedIn</a>
+          /
+          <a href="https://github.com/rodolfosantos23" target="_blank">Github</a>
+
+          <br><br>
+          Desenvolvedor Full Stack - PHP | Javascript | Typescript | Node.js | MySQL | HTML | CSS ☕💻
+        </p>
       </div>
     </section>
 
@@ -259,8 +271,8 @@
   <script src="https://kit.fontawesome.com/07376d875c.js" crossorigin="anonymous"></script>
 
   <script type="text/javascript">
-    // Medium
-    $.get("https://api.github.com/users/rodolfosantos23/repos").done(function (data) {
+    // Github
+    $.get("https://api.github.com/users/rodolfosantos23/repos?sort=created&direction=desc").done(function (data) {
       data.map((repositorio) => {
         switch (repositorio.language) {
           case "JavaScript":
