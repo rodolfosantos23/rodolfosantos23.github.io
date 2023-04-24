@@ -114,7 +114,7 @@ header .menu ul li {
 }
 
 header .menu ul li a {
-  color: #ffffffb3;
+  color: #fafafa;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 14px;  
@@ -122,7 +122,7 @@ header .menu ul li a {
 }
 
 header .menu ul a:hover {
-  color: #fff;
+  color: #589ad3;
 }
 
 /********** Banner ********/
@@ -200,7 +200,7 @@ section h2 {
 .skill h3 {
   line-height: 1.2;
   font-weight: 300;
-  color: #ffffff;
+  color: #fafafa;
   margin-bottom: 10px;
 }
 
