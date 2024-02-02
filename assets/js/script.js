@@ -334,15 +334,7 @@
     $(window).scroll(animateElements);
   }, 2500);
 
-  $(document).ready(function () {
-    const firstJobDate = new Date("2012-01-01");
-    const birthDate = new Date("1987-02-23");
-    const today = new Date();
-    const age = today.getFullYear() - birthDate.getFullYear();
-    const experience = today.getFullYear() - firstJobDate.getFullYear();
-    $("#idade").html(age);
-    $("#experience").html(experience - 1);
-
+  function getMediumPosts() {
     let postsCount = 0;
     $.get(
       "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@rodolfosantos23"
@@ -391,5 +383,20 @@
         }
       });
     });
+  }
+
+  function setBirthDateAndExperience() {
+    const firstJobDate = new Date("2012-01-01");
+    const birthDate = new Date("1987-02-23");
+    const today = new Date();
+    const age = today.getFullYear() - birthDate.getFullYear();
+    const experience = today.getFullYear() - firstJobDate.getFullYear();
+    $("#idade").html(age);
+    $("#experience").html(experience - 1);
+  }
+
+  $(document).ready(function () {
+    setBirthDateAndExperience();
+    getMediumPosts();
   });
 })(jQuery);
