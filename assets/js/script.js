@@ -60,14 +60,15 @@
     /* ============================================================ */
   function checkSize() {
     var width = $(window).width();
-    if (width < 1240) {
+    console.log(width);
+    if (width < 900) {
       $.scrollIt({
-        scrollTime: 1000,
+        scrollTime: 150,
         topOffset: -55,
       });
     } else {
       $.scrollIt({
-        scrollTime: 1000,
+        scrollTime: 600,
         topOffset: 0,
       });
     }
