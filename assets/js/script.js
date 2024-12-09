@@ -60,7 +60,6 @@
     /* ============================================================ */
   function checkSize() {
     var width = $(window).width();
-    console.log(width);
     if (width < 900) {
       $.scrollIt({
         scrollTime: 150,
