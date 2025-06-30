@@ -1,0 +1,24 @@
+{
+  "en": {
+    "home": {
+      "hello": "Hello, World!",
+      "name": "Rodolfo Santos",
+      "developer": "Full Stack Developer",
+      "description": "Hello! I'm a fullstack developer passionate about building innovative solutions."
+    }
+  },
+  "pt": {
+    "home": {
+      "hello": "Olá, Mundo!",
+      "name": "Rodolfo Santos",
+      "developer": "Desenvolvedor",
+      "description": "Olá! Sou um desenvolvedor fullstack apaixonado por construir soluções inovadoras.",
+      "contact": "CONTATO",
+      "technologies": "Tecnologias"
+    },
+    "about": {
+      "title": "Sobre",
+      "description": ""
+    }
+  }
+}
